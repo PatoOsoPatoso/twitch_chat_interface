@@ -1,0 +1,144 @@
+body {
+  background: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+svg {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 10px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: green;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+h3, .h3, h2, img, .new_message { 
+  -o-user-select: none;  
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+svg:hover {
+  width: 60px;
+  height: 60px;
+  margin-right: 0px;
+  margin-left: -5px;
+  margin-top: -5px;
+  fill: orange;
+}
+
+svg:hover + h3 {
+  margin-right: 0px;
+  margin-left: -5px;
+  margin-top: 0px;
+}
+
+#svg_exit {
+  fill: red;
+}
+
+#add_read, #add_fav {
+  float: right;
+  fill: green;
+  margin-top: 13px;
+}
+
+#add_read {
+  margin-right: 15px;
+}
+
+#add_fav {
+  margin-right: 0px;
+}
+
+#add_read:hover, #add_fav:hover {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+  fill: cyan;
+}
+
+#add_fav:hover {
+  margin-right: -5px;
+}
+
+#add_read:hover {
+  margin-right: 10px;
+}
+
+.new_message {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 30px 20px 0px 20px;
+  word-wrap: break-word;
+}
+
+img {
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+span {
+  margin-left: 15px;
+}
+
+nav + * {
+  margin-top: 40px;
+}
+
+.new_message {
+  margin-bottom: 20px;
+}
+
+#svg_msg {
+  fill: gold;
+}
+
+#svg_msg:hover {
+  fill: orange;
+}
+
+.badges {
+  margin-right: 3px;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.flag {
+  margin-left: 3px;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+p {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#chat, #favorites {
+    margin-top: 150px;
+}
